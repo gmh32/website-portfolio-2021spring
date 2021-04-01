@@ -1,0 +1,37 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', "Helvetica", "Arial", sans-serif;
+  color: #303C6C;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #D2FDFF;
+}
+h1 {
+  display: block;
+  text-align: center;
+  font-size: 4em;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #303C6C;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #D2FDFF;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
