@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  display: block;
+}
+
 body {
   font-family: 'Poppins', "Helvetica", "Arial", sans-serif;
   color: #303C6C;
@@ -69,7 +73,7 @@ p {
 
 .sidebar a {
   display: block;
-  color: #303C6C;
+  color: #B4DFE5;
   padding: 16px;
   text-decoration: none;
 }
@@ -83,4 +87,47 @@ div.main {
   margin-left: 200px;
   padding: 1px 16px;
   height: 1000px;
+}
+
+h2 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding: 30px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.5em;
+  padding: 10px;
+
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #FBE8A6;
+  padding: 20px;
+}
+
+form {
+  margin-top: 0em;
+}
+
+label {
+  cursor: default;
+}
+
+input[type=text],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #303C6C;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
